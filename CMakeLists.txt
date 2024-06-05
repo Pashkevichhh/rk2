@@ -23,7 +23,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 # Add the test executable
-add_executable(SheepTest test_Sheep.cpp Sheep.cpp)
+add_executable(SheepTest tests.cpp Sheep.cpp)
 target_link_libraries(SheepTest gtest_main)
 
 # Add tests
