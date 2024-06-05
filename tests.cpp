@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <Sheep.h>
+#include "Sheep.h"
 
 TEST(SheepTest, MakeSound) {
     Sheep dolly("Dolly");
