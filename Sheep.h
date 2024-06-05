@@ -1,4 +1,4 @@
-#include <Animal.h>
+#include "Animal.h"
 #include <string>
 
 class Sheep : public Animal
