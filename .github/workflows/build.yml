@@ -24,9 +24,7 @@ jobs:
 
     # Выполнение тестов
     - name: Run tests
-      run: |
-        cd build
-        ./tests
+      run: cd build && ctest --output-on-failure
 
     # Загрузка артифактов сборки
     - name: Upload artifact
