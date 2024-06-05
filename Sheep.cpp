@@ -1,4 +1,4 @@
-#include <Sheep.h>
+#include "Sheep.h"
 #include <iostream>
 
 void Sheep::makeSound() const
