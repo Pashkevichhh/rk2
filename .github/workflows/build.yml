@@ -27,12 +27,12 @@ jobs:
       run: |
         cd build
         ./tests
-        
-    # Выполнение main.cpp
-    - name: Run msin
-    run: |
-      cd build
-      ./main
+
+    # Выполнение тестов
+    - name: Run tests
+      run: |
+        cd build
+        ./main
 
     # Загрузка артифактов сборки
     - name: Upload artifact
