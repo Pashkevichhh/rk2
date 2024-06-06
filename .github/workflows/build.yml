@@ -28,11 +28,11 @@ jobs:
         cd build
         ./tests
 
-    # Выполнение тестов
-    - name: Run tests
+    # Выполнение main.cpp
+    - name: Run main
       run: |
         cd build
-        ./main
+        ./mt
 
     # Загрузка артифактов сборки
     - name: Upload artifact
