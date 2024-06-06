@@ -25,6 +25,7 @@ enable_testing()
 
 # Добавляем исполняемые файлы для тестов
 add_executable(tests tests.cpp Sheep.cpp)
+add_executable(mt main.cpp)
 target_link_libraries(tests gtest_main)
 
 # Включаем модуль GoogleTest, который предоставляет функции для автоматического обнаружения и выполнения тестов.
